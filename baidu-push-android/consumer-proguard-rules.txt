@@ -1,1 +1,4 @@
 # --- baidu-push-android ---
+
+-dontwarn com.baidu.**
+-keep class com.baidu.**{*; }
