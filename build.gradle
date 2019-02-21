@@ -107,7 +107,7 @@ subprojects {
         // ---
 
         androidMinSdkVersion = 14
-        androidTargetSdkVersion = 28
+        androidTargetSdkVersion = 17
 
         // ---
 
