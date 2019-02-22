@@ -1,5 +1,8 @@
 # android-baidu-push
 
+[![Build Status](https://cloud.drone.io/api/badges/v7lin/android-baidu-push/status.svg)](https://cloud.drone.io/v7lin/android-baidu-push)
+[ ![Download](https://api.bintray.com/packages/v7lin/maven/baidu-push-android/images/download.svg) ](https://bintray.com/v7lin/maven/baidu-push-android/_latestVersion)
+
 ### snapshot
 
 ````
