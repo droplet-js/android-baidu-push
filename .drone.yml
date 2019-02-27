@@ -35,6 +35,8 @@ steps:
   commands:
   - ./gradlew :baidu-push-android:clean :baidu-push-android:install :baidu-push-android:artifactoryPublish
   when:
+    branch:
+    - master
     event:
     - push
 
