@@ -31,7 +31,7 @@ steps:
     BINTRAY_API_KEY:
       from_secret: BINTRAY_API_KEY
     VERSION_CODE: ${DRONE_BUILD_NUMBER}
-    VERSION_NAME: 1.0.0-SNAPSHOT
+    VERSION_NAME: 5.9.0.59-SNAPSHOT
   commands:
   - ./gradlew :baidu-push-android:clean :baidu-push-android:install :baidu-push-android:artifactoryPublish
   when:
@@ -52,7 +52,7 @@ steps:
     BINTRAY_API_KEY:
       from_secret: BINTRAY_API_KEY
     VERSION_CODE: ${DRONE_BUILD_NUMBER}
-    VERSION_NAME: 1.0.0
+    VERSION_NAME: 5.9.0.59
   commands:
   - ./gradlew :baidu-push-android:clean :baidu-push-android:install :baidu-push-android:bintrayUpload
   when:
